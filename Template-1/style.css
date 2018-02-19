@@ -1,0 +1,87 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.navbar {
+	margin-bottom: 0px !important;
+	border-radius: 0px;
+}
+.navlinkstext{
+	padding: 5px;
+	font-size:20px;
+	background-color: white;
+	border-radius: 20px;
+}
+.localline{
+	margin-top: 5px;
+	color:white;
+	border:solid 1px white;
+}
+.padding0{
+	padding: 0px !important; 
+}
+.padding10{
+	padding: 10px;
+}
+.primary-nav{
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.contact-details-nav{
+	max-height:50px;
+}
+.contact-details-nav ul li{
+	padding: 10px;
+}
+.list-text-color{
+	color:blue;
+}
+.list-items{
+	padding-left: 40px;
+}
+.demo{
+	margin-top: 4px;
+	width:100px;
+	height: 35px;
+}
+@media screen and (max-width: 500px) {
+	.homebanner{
+		background-image:  url('./rectangle.png'); 
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		display: flex;
+		height:100vh;
+	}
+}
+@media screen and (min-width: 500px) {
+	.homebanner{
+		background-image:  url('./rectangle.png'); 
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		display: flex;
+		height:100vh;
+	}
+	
+}
+@media screen and (max-width: 992px) {
+	.alignHead{
+		color: white;
+		/*font-size: 100pt;*/
+		margin-top: 10%;
+	}
+}
+@media screen and (min-width: 992px) {
+	.alignHead{
+		color: white;
+		/*font-size: 20px;*/
+		margin-top: 15%;
+		margin-left: 10%;
+	}
+}
+.Rectangle-6 {
+	float:left;
+  width: 440px;
+  height: 240px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+}
